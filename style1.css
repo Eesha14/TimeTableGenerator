@@ -1,0 +1,67 @@
+*
+{
+  margin: 0px;
+}
+header
+{
+   background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/TimeTble/images/clock.jpg');
+   height: 100vh;
+   background-size: cover;
+   background-position:center;
+}
+
+.main-nav
+{
+  float:left;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.main-nav li{
+    display: inline-block;
+}
+.main-nav li a{
+   color:white;
+   text-decoration: none;
+   padding: 5px 20px;
+   font-family: "Roboto", sans-serif;
+   font-size: 25px;
+}
+
+.main-nav li.active a
+{
+   border: 1px solid white;
+}
+
+.main-nav li a:hover
+{
+   border: 1px solid white;
+}
+
+
+body{
+   font-family: monospace;
+}
+
+.row
+{
+   max-width: 600px;
+   margin: auto;
+}
+
+.hero
+{
+  position: absolute;
+  width: 200px;
+  margin-top: 0px;
+  margin-left: 50px;
+}
+
+h1
+{
+  color: white;
+  text-transform: uppercase;
+  font-size: 50px;
+  text-align:center;
+  margin-top:270px;
+}
